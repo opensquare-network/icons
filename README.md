@@ -1,7 +1,7 @@
 # OSN icon library
 
 ```bash
-npm i @osn/icon
+npm i @osn/icons
 ```
 
 ```js
