@@ -25,8 +25,8 @@
     "**/*.svg"
   ],
   "scripts": {
-    "gen": "node gen.mjs",
-    "prepublishOnly": "npm run gen"
+    "build": "node build.mjs",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@2nthony/prettier-config": "^1.0.2",
