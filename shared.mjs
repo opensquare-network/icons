@@ -3,12 +3,12 @@ import fs from "node:fs";
 /**
  * @description `source` folder names
  */
-export const sourcesEntry = getSourcesEntry();
+export const srcEntries = getSrcEntries();
 
 /**
  * @returns {string[]}
  */
-function getSourcesEntry() {
-  const sources = fs.readdirSync("source");
+function getSrcEntries() {
+  const sources = fs.readdirSync("src");
   return sources;
 }

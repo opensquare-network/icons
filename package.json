@@ -22,7 +22,7 @@
   "files": [
     "**/*.js",
     "**/*.ts",
-    "**/*.svg",
+    "src/**/*.svg",
     "!/tmp"
   ],
   "scripts": {

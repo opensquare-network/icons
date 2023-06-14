@@ -1,18 +1,18 @@
 import { spawnSync } from "node:child_process";
 import { resolve } from "node:path";
-import { sourcesEntry } from "./shared.mjs";
+import { srcEntries } from "./shared.mjs";
 
 gen();
 
 function gen() {
-  for (const source of sourcesEntry) {
+  for (const source of srcEntries) {
     // Gen icons
 
     console.info(`[${source}]`, "generating icons");
 
     const iconsRes = spawnSync("npx", [
       "@svgr/cli",
-      resolve("source", source),
+      resolve("src", source),
       "--out-dir",
       // source,
       resolve("tmp", source),
