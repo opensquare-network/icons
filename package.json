@@ -22,7 +22,8 @@
   "files": [
     "**/*.js",
     "**/*.ts",
-    "**/*.svg"
+    "**/*.svg",
+    "!/tmp"
   ],
   "scripts": {
     "build": "node build.mjs",

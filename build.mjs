@@ -14,7 +14,8 @@ function gen() {
       "@svgr/cli",
       resolve("source", source),
       "--out-dir",
-      source,
+      // source,
+      resolve("tmp", source),
     ]);
 
     if (iconsRes.status !== 0) {
@@ -27,7 +28,8 @@ function gen() {
 
     const compileRes = spawnSync("npx", [
       "tsup",
-      source,
+      // source,
+      resolve("tmp", source),
       "--out-dir",
       source,
       "--format",
@@ -36,6 +38,7 @@ function gen() {
       "--minify",
       "--loader",
       ".js=jsx",
+      "--clean",
     ]);
     if (compileRes.status !== 0) {
       process.exit(compileRes.status);
