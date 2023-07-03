@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <style>
+@keyframes a0_t { 0% { transform: translate(12px,12px) rotate(-360deg) translate(-12.5px,-12px); } 100% { transform: translate(12px,12px) rotate(1deg) translate(-12.5px,-12px); } }
+    </style>
+    <path d="M12.5,20C8.08172,20,4.5,16.4183,4.5,12C4.5,7.58172,8.08172,4,12.5,4C16.9183,4,20.5,7.58172,20.5,12" stroke="#1E2134" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(12,12) rotate(-360) translate(-12.5,-12)" style="animation: 1s linear infinite both a0_t;"/>
+</svg>
