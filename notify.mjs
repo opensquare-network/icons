@@ -27,6 +27,8 @@ function main() {
       },
     };
     axios.post(url, data);
+  } else {
+    console.info("No need to notify");
   }
 }
 
