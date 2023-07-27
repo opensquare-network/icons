@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <style>
+@keyframes a0_o { 0% { opacity: 0; } 25% { opacity: 0; animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 50% { opacity: 1; } 75% { opacity: 1; animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { opacity: 0; } }
+@keyframes a1_o { 0% { opacity: 0; } 12.5% { opacity: 0; animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 37.5% { opacity: 1; } 62.5% { opacity: 1; animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 87.5% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes a2_o { 0% { opacity: 0; animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 25% { opacity: 1; } 50% { opacity: 1; animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 75% { opacity: 0; } 100% { opacity: 0; } }
+    </style>
+    <ellipse fill="#1e2134" rx="1.75" ry="1.75" opacity="0" transform="translate(20,12)" style="animation: 2s linear infinite both a0_o;"/>
+    <ellipse fill="#1e2134" rx="1.75" ry="1.75" opacity="0" transform="translate(12,12)" style="animation: 2s linear infinite both a1_o;"/>
+    <ellipse fill="#1e2134" rx="1.75" ry="1.75" opacity="0" transform="translate(4,12)" style="animation: 2s linear infinite both a2_o;"/>
+</svg>
