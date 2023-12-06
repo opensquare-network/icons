@@ -10,5 +10,5 @@ export const srcEntries = getSrcEntries();
  */
 function getSrcEntries() {
   const sources = fs.readdirSync("src");
-  return sources;
+  return sources.filter((name) => name !== ".DS_Store");
 }
