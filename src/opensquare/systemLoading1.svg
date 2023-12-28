@@ -1,10 +1,12 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_14679_11565)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M17.1 10.3H20.5V13.7H17.1V10.3ZM10.3 10.3H13.7V13.7H10.3V10.3ZM3.5 10.3H6.9V13.7H3.5V10.3Z" fill="#101828"/>
-</g>
-<defs>
-<clipPath id="clip0_14679_11565">
-<rect width="24" height="24" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+    <style>
+@keyframes a0_o { 0% { opacity: 1; } 12.5% { opacity: 1; animation-timing-function: cubic-bezier(0.42,0,1,1); } 31.5% { opacity: 0; } 62.5% { opacity: 0; animation-timing-function: cubic-bezier(0.915,0,1,1); } 77.375% { opacity: 1; } 100% { opacity: 1; } }
+@keyframes a1_o { 0% { opacity: 1; } 21.6875% { opacity: 1; animation-timing-function: cubic-bezier(0.42,0,1,1); } 40.6875% { opacity: 0; } 73.5625% { opacity: 0; animation-timing-function: cubic-bezier(0.915,0,1,1); } 88.75% { opacity: 1; } 100% { opacity: 1; } }
+@keyframes a2_o { 0% { opacity: 1; } 30.9375% { opacity: 1; animation-timing-function: cubic-bezier(0.42,0,1,1); } 50% { opacity: 0; } 84.8125% { opacity: 0; animation-timing-function: cubic-bezier(0.915,0,1,1); } 100% { opacity: 1; } }
+    </style>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5,10.5765L6.9,10.5765L6.9,13.9765L3.5,13.9765L3.5,10.5765Z" fill="#101828" opacity="1" transform="translate(5.2,12.28) translate(-5.2,-12.2765)" style="animation: 1.6s linear infinite both a0_o;"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.3,10.5765L13.7,10.5765L13.7,13.9765L10.3,13.9765L10.3,10.5765Z" fill="#101828" opacity="1" transform="translate(12,12.2765) translate(-12,-12.2765)" style="animation: 1.6s linear infinite both a1_o;"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1,10.5765L20.5,10.5765L20.5,13.9765L17.1,13.9765L17.1,10.5765Z" fill="#101828" opacity="1" transform="translate(18.8,12.2765) translate(-18.8,-12.2765)" style="animation: 1.6s linear infinite both a2_o;"/>
 </svg>
