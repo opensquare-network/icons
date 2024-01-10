@@ -23,6 +23,7 @@
     "**/*.js",
     "**/*.ts",
     "src/**/*.svg",
+    "src/**/*.png",
     "!/tmp"
   ],
   "scripts": {
