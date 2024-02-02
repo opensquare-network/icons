@@ -22,7 +22,7 @@ function gen() {
     ]);
 
     if (iconsRes.status !== 0) {
-      process.exit(transformRes.status);
+      process.exit(iconsRes.status);
     }
 
     // Compile jsx
