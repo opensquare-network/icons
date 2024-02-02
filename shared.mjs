@@ -16,11 +16,15 @@ export const transformIgnoreStartsWith = [
   "wallet",
   "badge",
   "footer",
+  "product",
+  "chain",
+  "placeholder",
 ];
 
 export const transformColors = {
   "#1e2134": "currentColor",
   "#1E2134": "currentColor",
+  "#101828": "currentColor",
 };
 
 /**
