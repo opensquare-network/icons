@@ -1,43 +1,44 @@
 import { spawnSync } from "node:child_process";
 import { resolve } from "node:path";
-import { srcEntries } from "./shared.mjs";
+import { jsxDir, srcEntries, svgDir } from "./shared.mjs";
 
 gen();
 
 function gen() {
-  for (const source of srcEntries) {
+  for (const set of srcEntries) {
+    const svgPath = resolve(svgDir, set);
+    const jsxPath = resolve(jsxDir, set);
+
     // Gen icons
 
-    console.info(`[${source}]`, "generating icons");
+    console.info(`[${set}]`, "generating icons");
 
     const iconsRes = spawnSync("npx", [
       "@svgr/cli",
-      resolve("src", source),
+      svgPath,
       "--out-dir",
-      // source,
-      resolve("tmp", source),
+      // jsx,
+      jsxPath,
     ]);
 
     if (iconsRes.status !== 0) {
-      process.exit(iconsRes.status);
+      process.exit(transformRes.status);
     }
 
     // Compile jsx
 
-    console.info(`[${source}]`, "compiling jsx");
+    console.info(`[${set}]`, "compiling jsx");
 
     const compileRes = spawnSync("npx", [
       "tsup",
-      // source,
-      resolve("tmp", source),
+      // jsx,
+      jsxPath,
       "--out-dir",
-      source,
+      set,
       "--format",
       "esm",
       "--dts",
       "--minify",
-      "--loader",
-      ".js=jsx",
       "--clean",
     ]);
     if (compileRes.status !== 0) {

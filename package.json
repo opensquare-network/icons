@@ -24,11 +24,12 @@
     "**/*.ts",
     "src/**/*.svg",
     "src/**/*.png",
-    "!/tmp"
+    "!/svg",
+    "!/jsx"
   ],
   "scripts": {
     "playground": "vite playground",
-    "build": "node build.mjs",
+    "build": "node scripts/transform-svg-currentColor.mjs && node build.mjs",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
@@ -40,6 +41,7 @@
     "@svgr/plugin-svgo": "^8.0.1",
     "@types/react": "^18.2.12",
     "@vitejs/plugin-react": "^4.2.1",
+    "fast-glob": "^3.3.2",
     "prettier": "^2.8.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
