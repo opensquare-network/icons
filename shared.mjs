@@ -22,8 +22,10 @@ export const transformIgnoreStartsWith = [
 ];
 
 export const transformColors = {
+  // subsquare
   "#1e2134": "currentColor",
   "#1E2134": "currentColor",
+  // opensquare
   "#101828": "currentColor",
 };
 
