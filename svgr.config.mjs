@@ -2,6 +2,7 @@
  * @type {import('@svgr/core').Config}
  */
 export default {
+  ext: "jsx",
   index: true,
   plugins: ["@svgr/plugin-jsx", "@svgr/plugin-prettier"],
   template: (variables, { tpl }) => {
