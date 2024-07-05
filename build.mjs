@@ -24,7 +24,7 @@ function gen() {
     ]);
 
     if (iconsRes.status !== 0) {
-      console.error(iconsRes.stderr.toString());
+      console.error(iconsRes.stderr?.toString?.());
       process.exit(iconsRes.status);
     }
 
@@ -45,7 +45,7 @@ function gen() {
       "--clean",
     ]);
     if (compileRes.status !== 0) {
-      console.error(compileRes.stderr.toString());
+      console.error(compileRes.stderr?.toString?.());
       process.exit(compileRes.status);
     }
 
