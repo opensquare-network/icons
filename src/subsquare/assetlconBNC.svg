@@ -1,0 +1,16 @@
+<svg id="layer_bnc_1" data-name="layer_bnc_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1{fill:url(#gradient_bnc_20);}
+    </style>
+    <linearGradient id="gradient_bnc_20" x1="12.69" y1="8" x2="12.69" y2="17" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#77e8d0"/>
+      <stop offset="0.27" stop-color="#67b8f7"/>
+      <stop offset="0.59" stop-color="#b057b7"/>
+      <stop offset="0.8" stop-color="#db576a"/>
+      <stop offset="1" stop-color="#f0af45"/>
+    </linearGradient>
+  </defs>
+  <circle cx="12" cy="12" r="12"/>
+  <polygon class="cls-1" points="19.21 8 15.9 8 6.18 17 12.68 17 19.21 8"/>
+</svg>
