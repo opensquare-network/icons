@@ -1,11 +1,16 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_11967_1429)">
-<path d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12Z" fill="black"/>
-<path d="M11.9999 15.9401H6.70557L14.6471 8.06006H17.2943L11.9999 15.9401Z" fill="white"/>
-</g>
-<defs>
-<clipPath id="clip0_11967_1429">
-<rect width="24" height="24" fill="white"/>
-</clipPath>
-</defs>
+<svg id="layer_bnc_1" width="24" height="24" data-name="layer_bnc_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1{fill:url(#gradient_bnc_20);}
+    </style>
+    <linearGradient id="gradient_bnc_20" x1="12.69" y1="8" x2="12.69" y2="17" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#77e8d0"/>
+      <stop offset="0.27" stop-color="#67b8f7"/>
+      <stop offset="0.59" stop-color="#b057b7"/>
+      <stop offset="0.8" stop-color="#db576a"/>
+      <stop offset="1" stop-color="#f0af45"/>
+    </linearGradient>
+  </defs>
+  <circle cx="12" cy="12" r="12"/>
+  <polygon class="cls-1" points="19.21 8 15.9 8 6.18 17 12.68 17 19.21 8"/>
 </svg>
