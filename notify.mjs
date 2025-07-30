@@ -3,6 +3,7 @@ import axios from "redaxios";
 import process from "node:process";
 import { createRequire } from "node:module";
 
+// read package.json
 const require = createRequire(import.meta.url);
 const pkg = require("./package.json");
 
