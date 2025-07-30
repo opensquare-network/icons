@@ -1,7 +1,10 @@
 import { execSync } from "node:child_process";
 import axios from "redaxios";
 import process from "node:process";
-import pkg from "./package.json" assert { type: "json" };
+import { createRequire } from "node:module";
+
+const require = createRequire(import.meta.url);
+const pkg = require("./package.json");
 
 const url = process.env.WEBHOOK_URL;
 
