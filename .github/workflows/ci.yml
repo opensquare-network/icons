@@ -6,17 +6,11 @@ on:
   pull_request:
     branches: [main]
 
-permissions:
-  contents: write
-  id-token: write
-
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
           node-version: lts/*
@@ -33,7 +27,7 @@ jobs:
             ${{ runner.os }}-${{ matrix.node-version }}-release-
             ${{ runner.os }}-
       - run: yarn
-      - run: npx semantic-release --branches main
+      - run: npx semantic-release@24.2.9 --branches main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
