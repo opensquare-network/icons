@@ -43,6 +43,12 @@ function gen() {
       "--dts",
       "--minify",
       "--clean",
+      "--external",
+      "react",
+      "--external",
+      "react-dom",
+      "--external",
+      "react/jsx-runtime",
     ]);
     if (compileRes.status !== 0) {
       console.error(compileRes.stderr?.toString?.());
