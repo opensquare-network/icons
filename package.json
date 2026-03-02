@@ -5,7 +5,7 @@
     "components",
     "ui"
   ],
-  "version": "1.235.3",
+  "version": "1.235.4",
   "publishConfig": {
     "access": "public"
   },
